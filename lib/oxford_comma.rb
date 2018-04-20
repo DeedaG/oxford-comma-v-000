@@ -5,7 +5,7 @@ def oxford_comma(array)
     array.join(" and ")
   elsif array.size >= 3
      array.join(",")
-     array.keep_if { |v| v =~ /[aeiou]/ }
+     array.keep_if { |character| character =~ /-2/ }
   else
   end
 end
