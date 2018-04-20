@@ -4,8 +4,8 @@ def oxford_comma(array)
   elsif array.size == 2
     array.join(" and ")
   elsif array.size >= 3
-     array.join(",")
-     array.keep_if { |character| character < -2 }
+     array.join("," "and")
+     
   else
   end
 end
