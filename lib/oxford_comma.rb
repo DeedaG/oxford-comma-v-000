@@ -5,7 +5,7 @@ def oxford_comma(array)
     array.join(" and ")
   elsif array.size >= 3
     array[0...-2].join(",")
-    array<<" and "
+    array<<[-2]" and "
 
   else
   end
